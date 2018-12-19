@@ -1,0 +1,26 @@
+h1 {
+    text-align: center;
+}
+
+h2 {
+
+}
+
+path{
+    color: black;
+}
+
+.btn .btn-primary{
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+[type=reset], [type=submit], button, html [type=button] {
+    -webkit-appearance: none!important;
+}
+
+[type=reset], [type=submit], button, html [type=button]:hover {
+    cursor: pointer;
+}
